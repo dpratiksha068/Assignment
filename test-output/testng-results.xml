@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[
+1.Search Product65 inch Tv]]>
+    </line>
+    <line>
+      <![CDATA[
+2.Select any random product from screen]]>
+    </line>
+    <line>
+      <![CDATA[
+3.Click to product]]>
+    </line>
+    <line>
+      <![CDATA[
+4.Get product title and click to add to cart]]>
+    </line>
+    <line>
+      <![CDATA[
+5.Navigate to checkout Page]]>
+    </line>
+    <line>
+      <![CDATA[
+6.Verify description on page is same as added product]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93217" started-at="2020-07-11T10:10:35Z" finished-at="2020-07-11T10:12:08Z">
+    <groups>
+      <group name="Mobile">
+        <method signature="AmazonAutomationTest.verifyProductSearchAmazon()[pri:0, instance:com.amazon.testscripts.AmazonAutomationTest@71c3b41]" name="verifyProductSearchAmazon" class="com.amazon.testscripts.AmazonAutomationTest"/>
+      </group> <!-- Mobile -->
+    </groups>
+    <test name="Default test" duration-ms="93217" started-at="2020-07-11T10:10:35Z" finished-at="2020-07-11T10:12:08Z">
+      <class name="com.amazon.testscripts.AmazonAutomationTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.amazon.testscripts.AmazonAutomationTest@71c3b41]" name="before" is-config="true" duration-ms="10" started-at="2020-07-11T10:10:35Z" finished-at="2020-07-11T10:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscripts.AmazonAutomationTest@71c3b41]" name="setUp" is-config="true" duration-ms="26794" started-at="2020-07-11T10:10:35Z" finished-at="2020-07-11T10:11:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.testscripts.AmazonAutomationTest.verifyProductSearchAmazon() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductSearchAmazon()[pri:0, instance:com.amazon.testscripts.AmazonAutomationTest@71c3b41]" name="verifyProductSearchAmazon" duration-ms="65369" started-at="2020-07-11T10:11:01Z" finished-at="2020-07-11T10:12:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+1.Search Product65 inch Tv]]>
+            </line>
+            <line>
+              <![CDATA[
+2.Select any random product from screen]]>
+            </line>
+            <line>
+              <![CDATA[
+3.Click to product]]>
+            </line>
+            <line>
+              <![CDATA[
+4.Get product title and click to add to cart]]>
+            </line>
+            <line>
+              <![CDATA[
+5.Navigate to checkout Page]]>
+            </line>
+            <line>
+              <![CDATA[
+6.Verify description on page is same as added product]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductSearchAmazon -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.testscripts.AmazonAutomationTest@71c3b41]" name="afterMainMethod" is-config="true" duration-ms="1040" started-at="2020-07-11T10:12:07Z" finished-at="2020-07-11T10:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductSearchAmazon status=SUCCESS method=AmazonAutomationTest.verifyProductSearchAmazon()[pri:0, instance:com.amazon.testscripts.AmazonAutomationTest@71c3b41] output=
+1.Search Product65 inch Tv]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.amazon.testscripts.AmazonAutomationTest@71c3b41]" name="tearDownSuite" is-config="true" duration-ms="0" started-at="2020-07-11T10:12:08Z" finished-at="2020-07-11T10:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.amazon.testscripts.AmazonAutomationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
